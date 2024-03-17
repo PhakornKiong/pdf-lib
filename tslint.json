@@ -1,7 +1,7 @@
 {
   "extends": ["tslint:recommended", "tslint-config-prettier"],
   "rules": {
-    "only-arrow-functions": true,
+    "only-arrow-functions": false,
     "arrow-return-shorthand": [true, "multiline"],
     "curly": [true, "ignore-same-line"],
     "import-blacklist": [true, "lodash"],
@@ -36,7 +36,8 @@
         "ban-keywords",
         "check-format",
         "allow-pascal-case",
-        "allow-leading-underscore"
+        "allow-leading-underscore",
+        "allow-snake-case"
       ]
     }
   }

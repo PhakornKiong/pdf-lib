@@ -1,5 +1,6 @@
 import CryptoJS from 'crypto-js';
-import saslprep from 'saslprep';
+import { Buffer } from 'buffer';
+import saslprep from './saslprep/index';
 import PDFDocument from 'src/api/PDFDocument';
 import PDFDict from '../objects/PDFDict';
 import { LiteralObject } from '../PDFContext';
